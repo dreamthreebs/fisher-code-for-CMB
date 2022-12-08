@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Ali_Noise_level	dm_fsr_7params.py	/^def Ali_Noise_level():$/;"	f
+As_0	dm_fsr_7params.py	/^As_0 = 2.105209331337507e-09 #scalar_amp(1)$/;"	v
+As_CLprime	dm_fsr_7params.py	/^As_CLprime=npzdata['As_CLprime']$/;"	v
+As_prime	dm_fsr_7params.py	/^def As_prime():$/;"	f
+DM_Gamma_0	dm_fsr_7params.py	/^DM_Gamma_0=0$/;"	v
+DM_Gamma_CLprime	dm_fsr_7params.py	/^DM_Gamma_CLprime=npzdata['DM_Gamma_CLprime']$/;"	v
+DM_Gamma_prime	dm_fsr_7params.py	/^def DM_Gamma_prime(params_value):$/;"	f
+DM_Pann_0	dm_fsr_7params.py	/^DM_Pann_0=0$/;"	v
+DM_Pann_CLprime	dm_fsr_7params.py	/^DM_Pann_CLprime=npzdata['DM_Pann_CLprime']$/;"	v
+DM_Pann_prime	dm_fsr_7params.py	/^def DM_Pann_prime(params_value):$/;"	f
+DM_mass_0	dm_fsr_7params.py	/^DM_mass_0=1e-4$/;"	v
+DM_mass_prime	dm_fsr_7params.py	/^def DM_mass_prime():$/;"	f
+Derivative_Gamma	dm_fsr_7params.py	/^Derivative_Gamma=np.zeros((2501,3,params_num))$/;"	v
+Derivative_Pann	dm_fsr_7params.py	/^Derivative_Pann=np.zeros((2501,3,params_num))$/;"	v
+Noisecls	dm_fsr_7params.py	/^    Noisecls=Noisecls_0*nsfold[i]$/;"	v
+Noisecls_0	dm_fsr_7params.py	/^Noisecls_0=Ali_Noise_level()$/;"	v
+cangjs_Noise_level	dm_fsr_7params.py	/^def cangjs_Noise_level():$/;"	f
+clsn	dm_fsr_7params.py	/^clsn=initial_totCL()$/;"	v
+dls2cls	dm_fsr_7params.py	/^def dls2cls(dls):$/;"	f
+fileinput	dm_fsr_7params.py	/^import fileinput$/;"	i
+fsky	dm_fsr_7params.py	/^fsky=0.37$/;"	v
+get_EE_fisher_matrix	dm_fsr_7params.py	/^def get_EE_fisher_matrix(Derivative):$/;"	f
+get_TE_fisher_matrix	dm_fsr_7params.py	/^def get_TE_fisher_matrix(Derivative):$/;"	f
+get_TT_fisher_matrix	dm_fsr_7params.py	/^def get_TT_fisher_matrix(Derivative):$/;"	f
+get_combined_fisher_matrix	dm_fsr_7params.py	/^def get_combined_fisher_matrix(Derivative):$/;"	f
+get_thetastarmc_from_files	dm_fsr_7params.py	/^def get_thetastarmc_from_files():$/;"	f
+hubble_0	dm_fsr_7params.py	/^hubble_0 = 67.66$/;"	v
+initial_totCL	dm_fsr_7params.py	/^def initial_totCL():$/;"	f
+noise_dls2cls	dm_fsr_7params.py	/^def noise_dls2cls(dls):$/;"	f
+noise_high_fold	dm_fsr_7params.py	/^noise_high_fold=100000$/;"	v
+noise_length	dm_fsr_7params.py	/^noise_length=10$/;"	v
+noise_low_fold	dm_fsr_7params.py	/^noise_low_fold=0$/;"	v
+np	dm_fsr_7params.py	/^import numpy as np$/;"	i
+npzdata	dm_fsr_7params.py	/^npzdata=np.load('derivative_data.npz')$/;"	v
+ns_0	dm_fsr_7params.py	/^ns_0 = 0.9665 #scalar_spectral_index(1)$/;"	v
+ns_CLprime	dm_fsr_7params.py	/^ns_CLprime=npzdata['ns_CLprime']$/;"	v
+ns_prime	dm_fsr_7params.py	/^def ns_prime():$/;"	f
+nsfold	dm_fsr_7params.py	/^nsfold=np.linspace(noise_low_fold,noise_high_fold,noise_length)$/;"	v
+ombh2_0	dm_fsr_7params.py	/^ombh2_0 = 0.02242$/;"	v
+ombh2_CLprime	dm_fsr_7params.py	/^ombh2_CLprime=npzdata['ombh2_CLprime']$/;"	v
+ombh2_prime	dm_fsr_7params.py	/^def ombh2_prime():$/;"	f
+omch2_0	dm_fsr_7params.py	/^omch2_0 = 0.11933$/;"	v
+omch2_CLprime	dm_fsr_7params.py	/^omch2_CLprime=npzdata['omch2_CLprime']$/;"	v
+omch2_prime	dm_fsr_7params.py	/^def omch2_prime():$/;"	f
+optical_depth_0	dm_fsr_7params.py	/^optical_depth_0 = 0.0561 # re_optical_depth$/;"	v
+optical_depth_CLprime	dm_fsr_7params.py	/^optical_depth_CLprime=npzdata['optical_depth_CLprime']$/;"	v
+optical_depth_prime	dm_fsr_7params.py	/^def optical_depth_prime():$/;"	f
+os	dm_fsr_7params.py	/^import os$/;"	i
+params_num	dm_fsr_7params.py	/^params_num=7$/;"	v
+plt	dm_fsr_7params.py	/^from matplotlib import pyplot as plt$/;"	i
+re	dm_fsr_7params.py	/^import re$/;"	i
+set_As	dm_fsr_7params.py	/^def set_As(new_value):$/;"	f
+set_DM_Gamma	dm_fsr_7params.py	/^def set_DM_Gamma(new_value):$/;"	f
+set_DM_Pann	dm_fsr_7params.py	/^def set_DM_Pann(new_value):$/;"	f
+set_DM_mass	dm_fsr_7params.py	/^def set_DM_mass(new_value):$/;"	f
+set_hubble	dm_fsr_7params.py	/^def set_hubble(new_value):$/;"	f
+set_ns	dm_fsr_7params.py	/^def set_ns(new_value):$/;"	f
+set_ombh2	dm_fsr_7params.py	/^def set_ombh2(new_value):$/;"	f
+set_omch2	dm_fsr_7params.py	/^def set_omch2(new_value):$/;"	f
+set_optical_depth	dm_fsr_7params.py	/^def set_optical_depth(new_value):$/;"	f
+sigma_of_Gamma	dm_fsr_7params.py	/^sigma_of_Gamma=np.zeros((noise_length,4))$/;"	v
+sigma_of_Pann	dm_fsr_7params.py	/^sigma_of_Pann=np.zeros((noise_length,4))$/;"	v
+sys	dm_fsr_7params.py	/^import sys$/;"	i
+thetastarmc_0	dm_fsr_7params.py	/^thetastarmc_0=1.040997$/;"	v
+thetastarmc_CLprime	dm_fsr_7params.py	/^thetastarmc_CLprime=npzdata['thetastarmc_CLprime']$/;"	v
+thetastarmc_prime	dm_fsr_7params.py	/^def thetastarmc_prime():$/;"	f
+time	dm_fsr_7params.py	/^import time$/;"	i
