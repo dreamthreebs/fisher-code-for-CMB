@@ -15,7 +15,7 @@ lmin=2
 lmax=2500
 
 #get CMB TT EE BB TE power spectrum
-pars=camb.read_ini(os.path.join('/sharefs/alicpt/users/wangyiming25/work/cb/CAMB','inifiles','planck_2018.ini'))
+pars=camb.read_ini(os.path.join('/Users/wangyiming/Documents/work/CAMB','inifiles','planck_2018.ini'))
 pars.set_accuracy(AccuracyBoost=2.0)
 pars.max_l_tensor=1000
 # pars.DoLensing=False
@@ -230,6 +230,7 @@ def get_BB_fisher_matrix(Derivative,params_num):
 
 # dp,ls,xcordinate,min_step_mat,nt_CLprime=nt_prime(pars,-0.025,0.2)
 # dp,ls,xcordinate,min_step_mat,ten_sca_r_CLprime=ten_sca_r_prime(pars,-0.025,0.2)
+
 # fsky=1
 # params_num=2
 # Noisecls=np.zeros((2501,4))
@@ -241,7 +242,7 @@ def get_BB_fisher_matrix(Derivative,params_num):
 # powers =results.get_cmb_power_spectra(pars,lmax=2500, CMB_unit='muK',raw_cl=True)
 # totCL=powers['total']
 # sigma=get_BB_fisher_matrix(Derivative_nt,params_num) 
-
+#
 # print('calculation time= ', time.time()-time_0)
 
 '''
@@ -539,7 +540,7 @@ def plot_heat_map(r_len,nt_len,r_min,r_max,nt_min,nt_max,npzfile):
 
 # plot_heat_map(20,20,1e-3,2e-2,-0.04,0.04,'sigma_13.npz')
 # plot_heat_map(20,20,1e-3,5e-2,-0.04,0.04,'sigma_12.npz')
-plot_heat_map(20,20,1e-3,5e-2,-0.04,0.04,'sigma_15.npz')
+# plot_heat_map(20,20,1e-3,5e-2,-0.04,0.04,'sigma_15.npz')
 # plot_heat_map(40,40,1e-3,5e-2,-0.04,0.04,'sigma_14.npz')
 
 
